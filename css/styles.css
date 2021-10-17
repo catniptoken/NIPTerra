@@ -1,0 +1,147 @@
+h1, h2, h3, h4, h5{
+  font-family: "Roboto";
+  font-weight: 500;
+}
+
+p{
+  font-family: "Roboto";
+   font-weight:300;
+}
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* Navbar */
+.navbar{
+
+  padding: 2% 5%;
+
+
+}
+
+.logo{
+  height: 3rem;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Roboto";
+  font-weight: 500;
+  padding-left: 10px;
+  
+
+}
+
+
+/* Title */
+
+#title {
+  /* The image used */
+  background-image: url("../images/Title-Image.png");
+
+  /* Set a specific height */
+  height: 100%;
+
+  
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+
+}
+
+
+
+
+.title-heading{
+  margin-top:7%;
+  margin-bottom:10%;
+  color: white;
+
+}
+
+
+
+/* About us */
+
+.about-us-content{
+ 
+  padding: 2% 3%;
+  text-align: left;
+  margin-top: 5%;
+  
+}
+
+
+.about-us-img{
+  margin-top: 5%;
+
+  padding-left: 5% ;
+  padding-right: 5% ;
+  width: 100%;
+
+}
+
+
+
+/* gallery */
+#gallery{
+  text-align: center;
+}
+
+#gallery .container-fluid{
+  padding: 5% 5%;
+  margin-bottom: 10px;
+}
+
+.gallery-img{
+  width: 100%;
+}
+
+/* gameplay image */
+#gameplay{
+  text-align: center;
+}
+
+.gameplay-img{
+  width: 100%;
+}
+
+/* Contact */
+#contact{
+  text-align: center;
+  
+}
+
+#contact .container-fluid{
+  padding: 7% 15%;
+}
+.social-icon {
+  margin: 20px 10px;
+
+}
+
+
+@media (max-width: 750px) {
+
+  body {
+    text-align: center;
+  }
+ .about-us-content h1{
+   text-align:center;
+ }
+
+ .about-us-content p{
+   text-align:center;
+ }
+
+
+
+
+
+
+}
